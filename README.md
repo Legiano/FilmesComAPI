@@ -1,16 +1,26 @@
-# exerciciolista
+# 🎬 exerciciolista
 
-A new Flutter project.
+Aplicativo Flutter simples para listar filmes favoritos usando uma API REST com Node.js e Express.
 
-## Getting Started
+## 📱 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Listagem de filmes
+- Adição de novos filmes
+- Marcar ou desmarcar como favorito
+- Remoção de filmes
+- Integração com backend via HTTP
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tecnologias utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter (Dart)
+- Node.js + Express (API backend)
+- HTTP package para requisições
+- Logger para monitoramento
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Como executar
+
+### Backend (API)
+
+1. Vá até a pasta do backend:
+   ```bash
+   cd api-filmes
