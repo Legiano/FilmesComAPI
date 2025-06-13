@@ -24,7 +24,7 @@ class Filme {
   final bool favorito;
 
   Filme({required this.id, required this.titulo, required this.favorito});
-
+// contrutor para converter de JSON para objeto Filme
   factory Filme.fromJson(Map<String, dynamic> json) {
     return Filme(
       id: json['id'],
