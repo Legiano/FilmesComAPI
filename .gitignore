@@ -1,0 +1,48 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/App.framework
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# VS Code
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Pub
+pubspec.lock
+
+# Misc
+.DS_Store
+*.log
+*.lock
+*.swp
+*.class
+
+# Others
+*.pyc
+*.jar
+*.war
+*.ear
+*.iml
+*.hprof
+*.orig
